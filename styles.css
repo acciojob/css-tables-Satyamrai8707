@@ -1,1 +1,15 @@
-/*  your css code here. If applicable */
+/* Border, radius, and padding for table cells */
+td, th {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 0.5rem;
+}
+
+/* Row striping */
+tbody tr:nth-child(odd) {
+	background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+	background-color: #ffffff;
+}
